@@ -8,11 +8,10 @@ import { Component} from '@angular/core';
 export class LoadingPage  {
 
   constructor() {
-    setTimeout(() => {
-      // Após algum carregamento simulado, redirecione para a página principal.
-      // Substitua 'home' pelo nome da sua página principal.
+    
+  setTimeout(() => {
       window.location.href = '/home';
-    }, 3000); // Simula 3 segundos de carregamento
+    }, 3000); 
   }
 
 }
